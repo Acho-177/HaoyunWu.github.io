@@ -1,4 +1,20 @@
 .container{
-    height: 30vh;
+    height: 35vh;
     background-color: #414040;
+    display: flex;
+}
+
+#photo{
+    height: 30vh;
+    width: auto;
+    padding-left: 5%;
+    padding-top: 2vh;
+    padding-bottom: 0;
+}
+
+#self_introduce{
+    padding-left: 5%;
+    opacity: 0.8;
+    font-family: 'Cedarville Cursive';
+    color:antiquewhite;
 }
