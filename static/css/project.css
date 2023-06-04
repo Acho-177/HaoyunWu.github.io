@@ -1,0 +1,48 @@
+
+#Project-Title{
+    margin: 0;    
+    padding-left: 6vw;
+    padding-top: 3vw;
+    padding-bottom: 2vw;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3vw;
+    color: rgb(218, 201, 180);
+    opacity: 0.6;
+}
+
+ul p{
+    padding-left: 5vw;
+    padding-top: 5vh;
+    opacity: 0.8;
+    font-family: "Comfortaa";
+    
+}
+
+.project{
+    display: flex;
+}
+
+.project-list{
+    background-color: #414040;
+    margin: 0;
+}
+
+.rounded{
+    border-radius: 50%;
+    width: 10vw;
+    height: auto;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    opacity: 0.5;
+}
+
+.rounded:hover{
+    opacity: 1;
+}
+
+.project-list #raytrace{
+    background-color:darkslategray;
+}
+
+
