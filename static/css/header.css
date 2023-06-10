@@ -1,5 +1,4 @@
 .banner {
-   
     height: 100vh;
     border: 0;
     background-position: center;
@@ -12,6 +11,7 @@
 
 body {
     background-image: linear-gradient(rgba(211, 213, 238, 0.1), rgba(150, 207, 216, 0.2)),url("77.png");
+    margin: 0;
     height: 100vh;
     border: 0;
     background-position: center;

@@ -19,6 +19,14 @@
     border-radius: 10%;
 }
 
+@media screen  and (max-aspect-ratio:4/3) {
+   
+
+    .container{
+        margin-left: 30vw;
+    }
+}
+
 #self_introduce{
     font-size: 2vw;
     margin-left: 3vw;
