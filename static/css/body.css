@@ -1,23 +1,35 @@
 .container{
-    height: 35vh;
-    background-color: #414040;
+    height: 40vh;
+    background-color: #d1d1d11a;
     display: flex;
+    margin-left: 50vw;
+    margin-right: 3vw;
+    margin-bottom: 10vw;
+    border-radius: 10%;
+    
 }
+
 
 #photo{
     height: 30vh;
     width: auto;
-    padding-left: 10vw;
-    padding-top: 2vh;
-    padding-bottom: 0;
-    opacity: 0.6;
-    
+    margin-left: 5vw;
+    margin-top: 4vh;
+    margin-right: 2vw;
+    border-radius: 10%;
 }
 
 #self_introduce{
-    padding-left: 5%;
-    opacity: 0.8;
+    font-size: 2vw;
+    margin-left: 3vw;
+    margin-top: 10vh;
     font-family: 'Cedarville Cursive';
-    color:antiquewhite;
+    color:rgba(0, 0, 0, 0.79);
+    
 }
 
+hr{
+    margin: 0;
+    color: #3b576d;
+    
+}

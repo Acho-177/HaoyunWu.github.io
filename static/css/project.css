@@ -1,40 +1,51 @@
+.project-list{
+    background-color: #000000b0;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-radius: 10%;
+    padding-bottom: 15vh;
+}
 
 #Project-Title{
     margin: 0;    
-    padding-left: 6vw;
-    padding-top: 3vw;
+    padding-left: 10vw;
+    padding-top: 5vw;
     padding-bottom: 2vw;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Times";
     font-size: 3vw;
-    color: rgb(218, 201, 180);
-    opacity: 0.6;
+    color: rgba(249, 240, 231, 0.521);
+    
+}
+
+.projectname{
+    margin-top:5vh;
+    font-size: 1.8vw;
+    margin-bottom: 1vh;
 }
 
 ul p{
+    margin: 0;
     padding-left: 5vw;
-    padding-top: 5vh;
-    opacity: 0.8;
-    font-family: "Comfortaa";
-    
+    font-size: 1.3vw;
+    font-family: "Times";
+    color: rgba(249, 240, 231, 0.521);
 }
 
 .project{
     display: flex;
 }
 
-.project-list{
-    background-color: #414040;
-    margin: 0;
-}
+
 
 .rounded{
+
     border-radius: 50%;
     width: 10vw;
     height: auto;
     margin-left: 10vw;
     margin-top: 5vh;
     margin-bottom: 2vh;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 .rounded:hover{

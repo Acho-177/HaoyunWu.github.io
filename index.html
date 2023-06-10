@@ -10,13 +10,14 @@
     <link rel="stylesheet" type="text/css" href="static/css/navbar.css">
     <link rel="stylesheet" type="text/css" href="static/css/body.css">
     <link rel="stylesheet" type="text/css" href="static/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="static/css/project.css">
     
     <link href='https://fonts.googleapis.com/css?family=Cedarville Cursive' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
 </head>
 
 
-<!-- header-->
+
 <header>
     <div class="banner">
         <p id="haoyun" class="Name"><B>Haoyun Wu</p>
@@ -39,14 +40,51 @@
 <!-- body -->
 <body>
     <div class="container">
-        <img id='photo' src="res/photo.jpg"></img>
+        
         <p id="self_introduce">
             Hi, I'm Haoyun Wu.<br>
-            Senior student in MSU.<br>
             Welcome to my website!<br>
         </p>
+        <img id='photo' src="res/photo.jpg"></img>
     </div>
     
+    <div id="projectContainer">
+        <ul class="project-list">
+            <p id="Project-Title">Projects</p>
+
+            <div class="project">
+                <div><img  src="res/project/ray_trace2.png"  class='rounded' alt="Project 1" id="raytrace"></div>
+                <div class="explaination">
+                    <p class="projectname">RayTrace Model<p>
+                        Ray trace model based on OpenGL<BR>
+                        Demo Download<BR>
+                        Github link:</p>
+                </div>
+            </div>
+
+            <div class="project">
+                <img  src="res/project/particle.jpg" class='rounded' alt="Project 2" id="particle">
+                <div class="explaination">
+                    <p class="projectname">Particle System<p>
+                        Foundamental Particle System based on MFC<BR>
+                        Demo Download<BR>
+                        Github link:</p>
+                </div>
+            </div>
+
+            <div class="project">
+                <img  src="res/project/ghost.jpg"  class='rounded' alt="Project 3" id="ghost">
+                <div class="explaination">
+                    <p class="projectname">Ghost Go<p>
+                        Android Application<BR>
+                        Develop inspired by Pokemen Go<BR>
+                        Demo Download<BR>
+                        Github link:</p>
+                </div>
+            </div> 
+
+        </ul> 
+    </div>    
 </body>
 
 <footer>
