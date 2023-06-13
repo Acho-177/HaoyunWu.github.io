@@ -33,10 +33,14 @@ ul p{
 
 .project{
     display: flex;
-}
+   
+    --progress : 1;
+    transform: 
+                translateX(calc(100% * (1 - var(--progress))));
+} 
+
 
 .rounded{
-
     border-radius: 50%;
     width: 10vw;
     height: auto;
@@ -56,5 +60,5 @@ ul p{
 
 a:link {
     color:aquamarine;
-    
 }
+
