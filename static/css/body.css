@@ -8,8 +8,8 @@
     border-radius: 10%;
     
     --progress : 1;
-    transform: 
-                translateX(calc(100% * (1 - var(--progress))));
+    transform: translateX(calc(100% * (1 - var(--progress))));
+    transition: all 1s;
 }
 
 

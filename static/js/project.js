@@ -24,10 +24,10 @@ document.addEventListener('scroll', (e) => {
     for (let [index, row] of rows.entries()) {
 
         const Top =  getElementViewTop(row)
-        let scrolled = 1.5 - Top / html.clientHeight
+        let scrolled = 1.2 - Top / html.clientHeight
         let progress = scrolled
-        if (progress >= 1) progress = 1
-        if (progress <= 0) progress = 0
+        if (progress >= 0.5) progress = 1
+        if (progress <= 0.5) progress = 0
         
         row.style.setProperty('--progress', progress)
     }
@@ -40,10 +40,10 @@ document.addEventListener('scroll', (e) => {
     for (let [index, row] of rows.entries()) {
 
         const Top =  getElementViewTop(row)
-        let scrolled = 1.5 - Top / html.clientHeight
+        let scrolled = 1.3 - Top / html.clientHeight
         let progress = scrolled
-        if (progress >= 1) progress = 1
-        if (progress <= 0) progress = 0
+        if (progress >= 0.5) progress = 1
+        if (progress <= 0.5) progress = 0
         
         row.style.setProperty('--progress', progress)
     }
