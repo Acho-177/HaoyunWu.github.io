@@ -18,25 +18,15 @@
     
 }
 
-.experience-text{
-    margin-top:12.0pt;
-    margin-right:0in;
-    margin-bottom:12.0pt;
-    
+
+
+.experience-main{
+    margin-top: 5vh;
     color:rgba(250, 235, 215, 0.589);
-    font-size: 2.5vh;
-    margin-left:2.5in;
-    text-indent:-.25in;
-    line-height:normal;
+    font-size: 3vh;
+    
     
     --progress : 1;
     transform: translateX(calc(100% * (1 - var(--progress))));
     transition: all 0.5s;
-    
-}
-
-.experience-time{
-    margin-top:10vh;
-    margin-left:1in;
-    font-size: 3vh;
 }

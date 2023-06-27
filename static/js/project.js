@@ -53,7 +53,7 @@ document.addEventListener('scroll', (e) => {
 })
 
 document.addEventListener('scroll', (e) => {
-    const rows = document.querySelectorAll(".experience-text")
+    const rows = document.querySelectorAll(".experience-main")
     const html = document.documentElement
 
     for (let [index, row] of rows.entries()) {
