@@ -1,3 +1,4 @@
+@media screen  and (min-aspect-ratio:4/3) {
 .project-list{
     background-color: #0000005b;
     margin-left: 5vw;
@@ -35,7 +36,7 @@ ul p{
     display: flex;
    
     --progress : 1;
-    transform:  translateX(calc(100% * (1 - var(--progress))));
+    transform:  translateY(calc(100% * (1 - var(--progress))));
 
     transition: all 1s;
     
@@ -64,3 +65,68 @@ a:link {
     color:aquamarine;
 }
 
+}
+
+@media screen  and (max-aspect-ratio:4/3) {
+
+    .project-list{
+        background-color: #0000005b;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        border-radius: 10%;
+        padding-bottom: 15vh;
+    }
+    
+    #Project-Title{
+        margin: 0;    
+        padding-left: 5vw;
+        padding-top: 5vw;
+        padding-bottom: 2vw;
+        font-family: "Times";
+        font-size: 3vw;
+        color: rgba(249, 240, 231, 0.521);
+        
+    }
+    
+    .projectname{
+        margin-top:5vh;
+        font-size: 1.8vw;
+        margin-bottom: 1vh;
+    }
+    
+    ul p{
+        margin: 0;
+        padding-left: 5vw;
+        font-size: 1.3vw;
+        font-family: "Times";
+        color: rgba(249, 240, 231, 0.779);
+    }
+    
+    .project{
+        display: flex;
+        
+    } 
+    
+    
+    .rounded{
+        border-radius: 50%;
+        width: 10vw;
+        height: auto;
+        margin-left: 10vw;
+        margin-top: 5vh;
+        margin-bottom: 2vh;
+        opacity: 1;
+    }
+    
+    .rounded:hover{
+        opacity: 1;
+    }
+    
+    .project-list #raytrace{
+        background-color:darkslategray;
+    }
+    
+    a:link {
+        color:aquamarine;
+    }
+}

@@ -1,3 +1,4 @@
+@media screen  and (min-aspect-ratio:4/3) {
 .experience-list{
     background-color: #0000005b;
     margin-left: 5vw;
@@ -20,13 +21,60 @@
 
 
 
-.experience-main{
-    margin-top: 5vh;
-    color:rgba(250, 235, 215, 0.589);
+.experience-time{
+    padding-left: 10vw;
     font-size: 3vh;
+}
+
+.experience-main{
+    font-size: 3vh;
+    margin-top: -3vh;
+    padding-left: 40vw;
+}
+
+.experience-content{
+    padding-left: 45vw;
+    margin-top: 1vh;
+    margin-bottom: 10vh;
+    font-size: 2.5vh;
+}
+
+
+.experience-txt{
     
+    color: rgba(249, 240, 231, 0.578);
     
+    font-family:'Times New Roman', Times, serif;
+    line-height: normal;
+
     --progress : 1;
-    transform: translateX(calc(100% * (1 - var(--progress))));
+    transform: translateY(calc(200% * (1 - var(--progress))));
     transition: all 0.5s;
+}
+
+}
+
+@media screen  and (max-aspect-ratio:4/3) {
+
+    .experience-list{
+        background-color: #0000005b;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        border-radius: 10%;
+        padding-bottom: 15vh;
+       
+    }
+    
+    #experience-Title{
+        margin: 0;    
+        padding-left: 5vw;
+        padding-top: 5vw;
+        padding-bottom: 3vw;
+        font-family: "Times";
+        font-size: 3vw;
+        color: rgba(249, 240, 231, 0.521);
+        
+    }
+    
+    
 }

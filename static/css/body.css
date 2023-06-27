@@ -1,6 +1,7 @@
+@media screen  and (min-aspect-ratio:4/3) {
 .container{
     height: 40vh;
-    background-color: #d1d1d12f;
+    
     display: flex;
     margin-left: 50vw;
     margin-right: 3vw;
@@ -8,7 +9,7 @@
     border-radius: 10%;
     
     --progress : 1;
-    transform: translateX(calc(100% * (1 - var(--progress))));
+    transform: translateX(calc(-50% * (1 - var(--progress))));
     transition: all 1s;
     
 }
@@ -24,17 +25,7 @@
 }
 
 
-@media screen  and (max-aspect-ratio:4/3) {
-    .container{
-        margin-left: 30vw;
-        height: 20vh;
-        
-    }
-    #photo{
-        height: 15vh;
-        margin-right: 1vw;
-    }
-}
+
 
 #self_introduce{
     font-size: 2vw;
@@ -54,13 +45,6 @@ hr{
 html,body {
     max-width: 100%;
     
-}
-
-
-@media screen and (max-aspect-ratio:4/3){
-    html,body {
-        overflow-x:hidden 
-    }
 }
 
 ::-webkit-scrollbar {
@@ -83,4 +67,91 @@ a.ret:link, a.ret:visited {
 
 a.ret:hover{
     opacity: 1;
+}
+}
+
+@media screen  and (max-aspect-ratio:4/3) {
+
+    .container{
+        height: 40vh;
+        
+        display: flex;
+        margin-left: 50vw;
+        margin-right: 3vw;
+        margin-bottom: 10vw;
+        border-radius: 10%;
+    
+        
+    }
+    
+    
+    #photo{
+        height: 30vh;
+        width: auto;
+        margin-left: 5vw;
+        margin-top: 4vh;
+        margin-right: 2vw;
+        border-radius: 10%;
+    }
+    
+    
+    
+    
+    #self_introduce{
+        font-size: 2vw;
+        margin-left: 3vw;
+        margin-top: 10vh;
+        font-family: 'Cedarville Cursive';
+        color:rgba(0, 0, 0, 0.79);
+        
+    }
+    
+    hr{
+        margin: 0;
+        color: #3b576d;
+        
+    }
+    
+    html,body {
+        max-width: 100%;
+        
+    }
+    
+    ::-webkit-scrollbar {
+        display: none;
+        
+    }
+    
+    a.ret:link, a.ret:visited {
+        position: fixed;
+        bottom: 2%;
+        right: 1.5%; 
+        font-size: 5vh;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        opacity: 0.6;
+        color: black;
+        
+    }
+    
+    a.ret:hover{
+        opacity: 1;
+    }
+
+    .container{
+        margin-left: 30vw;
+        height: 20vh;
+        
+    }
+    #photo{
+        height: 15vh;
+        margin-right: 1vw;
+    }
+
+    html,body {
+        overflow-x:hidden;
+    }
+
+
 }

@@ -53,13 +53,13 @@ document.addEventListener('scroll', (e) => {
 })
 
 document.addEventListener('scroll', (e) => {
-    const rows = document.querySelectorAll(".experience-main")
+    const rows = document.querySelectorAll(".experience-txt")
     const html = document.documentElement
 
     for (let [index, row] of rows.entries()) {
 
         const Top =  getElementViewTop(row)
-        let scrolled = 1.5 - Top / html.clientHeight
+        let scrolled = 1.3 - Top / html.clientHeight
         let progress = scrolled
         if (progress >= 0.5) progress = 1
         if (progress <= 0.5) progress = 0
