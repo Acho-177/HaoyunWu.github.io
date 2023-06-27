@@ -49,3 +49,18 @@ document.addEventListener('scroll', (e) => {
     }
 })
 
+document.addEventListener('scroll', (e) => {
+    const rows = document.querySelectorAll("div.experience-text")
+    const html = document.documentElement
+
+    for (let [index, row] of rows.entries()) {
+
+        const Top =  getElementViewTop(row)
+        let scrolled = 1.3 - Top / html.clientHeight
+        let progress = scrolled
+        if (progress >= 0.5) progress = 1
+        if (progress <= 0.5) progress = 0
+        
+        row.style.setProperty('--progress', progress)
+    }
+})

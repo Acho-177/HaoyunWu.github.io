@@ -1,0 +1,38 @@
+.experience-list{
+    background-color: #0000005b;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-radius: 10%;
+    padding-bottom: 15vh;
+    overflow: hidden;
+}
+
+#experience-Title{
+    margin: 0;    
+    padding-left: 10vw;
+    padding-top: 5vw;
+    padding-bottom: 2vw;
+    font-family: "Times";
+    font-size: 3vw;
+    color: rgba(249, 240, 231, 0.521);
+    
+}
+
+.experience-text{
+    margin-top:12.0pt;
+    margin-right:0in;
+    margin-bottom:12.0pt;
+    
+    color:rgba(250, 235, 215, 0.589);
+    font-size: 2.5vh;
+    margin-left:2.5in;
+    text-indent:-.25in;
+    line-height:normal;
+    
+}
+
+.experience-time{
+    margin-left:1in;
+    font-size: 3vh;
+
+}
