@@ -23,6 +23,7 @@
     border-radius: 10%;
 }
 
+
 @media screen  and (max-aspect-ratio:4/3) {
     .container{
         margin-left: 30vw;
@@ -55,7 +56,31 @@ html,body {
     
 }
 
+
+@media screen and (max-aspect-ratio:4/3){
+    html,body {
+        overflow-x:hidden 
+    }
+}
+
 ::-webkit-scrollbar {
     display: none;
     
-  }
+}
+
+a.ret:link, a.ret:visited {
+    position: fixed;
+    bottom: 2%;
+    right: 1.5%; 
+    font-size: 5vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    opacity: 0.6;
+    color: black;
+    
+}
+
+a.ret:hover{
+    opacity: 1;
+}

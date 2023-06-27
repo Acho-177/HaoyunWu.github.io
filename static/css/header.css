@@ -41,14 +41,7 @@ body {
 }
 
 
-a{
-    color: rgb(10, 20, 43);
-    opacity: 0.7;
-}
 
-a:hover{
-    opacity: 0.3;
-}
 
 html {
     scroll-behavior: smooth;
