@@ -25,9 +25,12 @@
 @media screen  and (max-aspect-ratio:4/3) {
     .container{
         margin-left: 30vw;
+        height: 20vh;
+        
     }
     #photo{
         height: 15vh;
+        margin-right: 1vw;
     }
 }
 
@@ -46,7 +49,7 @@ hr{
     
 }
 
-html {
+html,body {
     max-width: 100%;
     overflow-x: hidden;
 }
