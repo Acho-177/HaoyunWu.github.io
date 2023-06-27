@@ -8,7 +8,7 @@
 
 #Project-Title{
     margin: 0;    
-    padding-left: 10vw;
+    padding-left: 5vw;
     padding-top: 5vw;
     padding-bottom: 2vw;
     font-family: "Times";
@@ -38,6 +38,7 @@ ul p{
     transform:  translateX(calc(100% * (1 - var(--progress))));
 
     transition: all 1s;
+    
 } 
 
 

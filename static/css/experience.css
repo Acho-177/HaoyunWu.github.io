@@ -4,14 +4,14 @@
     margin-right: 5vw;
     border-radius: 10%;
     padding-bottom: 15vh;
-    overflow: hidden;
+   
 }
 
 #experience-Title{
     margin: 0;    
-    padding-left: 10vw;
+    padding-left: 5vw;
     padding-top: 5vw;
-    padding-bottom: 2vw;
+    padding-bottom: 3vw;
     font-family: "Times";
     font-size: 3vw;
     color: rgba(249, 240, 231, 0.521);
@@ -29,10 +29,14 @@
     text-indent:-.25in;
     line-height:normal;
     
+    --progress : 1;
+    transform: translateX(calc(100% * (1 - var(--progress))));
+    transition: all 0.5s;
+    
 }
 
 .experience-time{
+    margin-top:10vh;
     margin-left:1in;
     font-size: 3vh;
-
 }
